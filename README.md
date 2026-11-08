@@ -1,0 +1,1 @@
+This customer churn analysis project uses SQL, Excel, and Tableau to analyze subscription cancellations, identify customer retention trends, evaluate subscription plan performance, and uncover factors contributing to customer churn to help businesses make data-driven decisions.
