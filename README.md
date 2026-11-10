@@ -96,6 +96,14 @@ SELECT ROUND(AVG(cancellation_percentage),2) AS average_cancellation
 FROM cancel_percentage;
 ```
 
+### Q4: How many subscriptions are being cancelled each month?
+``` sql
+SELECT COUNT(signup_date) as cancelled_signup, STRFTIME('%m', signup_date) AS signup_month, active_cancelled
+FROM customerschurnworking6
+WHERE active_cancelled = 'cancelled'
+GROUP BY signup_month;
+```
+
 
 
 ## Excel Sample
